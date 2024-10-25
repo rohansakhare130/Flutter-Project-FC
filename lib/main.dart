@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project_fr/widgets/button.dart';
 // import 'package:project_fr/widgets/container_Sized.dart';
-import 'package:project_fr/widgets/rowsCols.dart';
+// import 'package:project_fr/widgets/rowsCols.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         // brightness: Brightness.dark,
         primaryColor: Colors.deepPurple
       ),
-      home:Rowscols(),
+      home:const ButtonWidget(),
     );
   }
 }
